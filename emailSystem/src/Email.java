@@ -81,6 +81,7 @@ public class Email {
     public String showInfo(){
         return "Display Name: " + firstName + " " + lastName + 
                 "\nCompany Email: " + email + 
+                "\nAlternate Email: " + altEmail + 
                 "\nMailbox Capacity: " + mailboxCapacity + "mb";
     }
 }
